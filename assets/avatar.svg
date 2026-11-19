@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title description">
+  <title id="title">Kaushal Kumar Sharma illustrated avatar</title>
+  <desc id="description">A warm illustrated portrait of a young Indian man with dark wavy hair and a black shirt.</desc>
+  <defs>
+    <radialGradient id="background" cx="50%" cy="38%" r="72%">
+      <stop offset="0" stop-color="#f3eee2"/>
+      <stop offset="0.68" stop-color="#d8d1c2"/>
+      <stop offset="1" stop-color="#aaa492"/>
+    </radialGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1d1e21"/>
+      <stop offset="1" stop-color="#08090b"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop stop-color="#c7865f"/>
+      <stop offset="0.55" stop-color="#b87350"/>
+      <stop offset="1" stop-color="#985b43"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17151a"/>
+      <stop offset="0.7" stop-color="#09090b"/>
+      <stop offset="1" stop-color="#2d2930"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#6f6a5f" flood-opacity=".36"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#background)"/>
+  <circle cx="450" cy="378" r="320" fill="#ffffff" opacity=".14"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M135 900c12-167 111-278 239-307h152c128 29 227 140 239 307z" fill="url(#shirt)"/>
+    <path d="M350 620h200l-22 90H372z" fill="url(#skin)"/>
+    <path d="M372 708c42 30 114 30 156 0l49 192H323z" fill="#111215"/>
+
+    <ellipse cx="450" cy="470" rx="205" ry="250" fill="url(#skin)"/>
+    <ellipse cx="268" cy="500" rx="36" ry="70" fill="#ad7051"/>
+    <ellipse cx="632" cy="500" rx="36" ry="70" fill="#ad7051"/>
+
+    <path d="M248 397c-8-170 78-285 202-285 137 0 224 112 203 305-29-49-52-91-69-126-69 54-196 81-285 65-12 21-25 44-51 41z" fill="url(#hair)"/>
+    <path d="M290 337c21-105 70-168 158-176-54 45-82 103-91 176z" fill="#302d35" opacity=".78"/>
+    <path d="M352 274c56-96 171-127 246-38-88-29-164 3-246 38z" fill="#252229"/>
+    <path d="M273 298c-9-92 66-171 149-183-105 45-131 127-149 183z" fill="#111116"/>
+    <path d="M448 142c92-8 184 50 203 142-61-72-126-111-203-142z" fill="#121116"/>
+
+    <path d="M308 444c27-23 69-25 96-5" fill="none" stroke="#4b3027" stroke-width="16" stroke-linecap="round"/>
+    <path d="M496 439c27-20 69-18 96 5" fill="none" stroke="#4b3027" stroke-width="16" stroke-linecap="round"/>
+
+    <ellipse cx="355" cy="487" rx="57" ry="42" fill="#f4ede5"/>
+    <ellipse cx="545" cy="487" rx="57" ry="42" fill="#f4ede5"/>
+    <ellipse cx="361" cy="488" rx="24" ry="28" fill="#201b18"/>
+    <ellipse cx="539" cy="488" rx="24" ry="28" fill="#201b18"/>
+    <circle cx="369" cy="479" r="7" fill="#fff"/>
+    <circle cx="547" cy="479" r="7" fill="#fff"/>
+
+    <path d="M450 491c-14 50-22 93 7 105 21 9 45-3 53-15-24 7-45 4-60-13z" fill="#9d6048" opacity=".62"/>
+    <path d="M341 615c68 55 150 55 218 0-35 107-182 111-218 0z" fill="#56382f" opacity=".34"/>
+    <path d="M373 625c45 23 109 23 154 0-18 37-48 54-77 54-30 0-59-17-77-54z" fill="#f1d1b9"/>
+    <path d="M393 626c36 15 78 15 114 0-23 14-91 14-114 0z" fill="#fffaf5"/>
+    <path d="M450 665c-23 0-44-8-57-18 14 38 100 38 114 0-13 10-34 18-57 18z" fill="#b57a62"/>
+
+    <path d="M330 557c-17 43-14 78 4 107" fill="none" stroke="#4d3028" stroke-width="10" stroke-linecap="round" opacity=".42"/>
+    <path d="M570 557c17 43 14 78-4 107" fill="none" stroke="#4d3028" stroke-width="10" stroke-linecap="round" opacity=".42"/>
+
+    <path d="M377 696c38 30 108 30 146 0l20 74H357z" fill="#a66a50" opacity=".42"/>
+  </g>
+
+  <circle cx="450" cy="450" r="425" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="8"/>
+</svg>

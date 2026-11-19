@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090909" />
+    <meta
+      name="description"
+      content="Kaushal AI Labs — Python, machine learning,
+        Generative AI and web application development
+        by Kaushal Kumar Sharma."
+    />
+    <title>Kaushal AI Labs | Python & AI Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="logo" href="#home" aria-label="Kaushal AI Labs home">
+          <span class="logo-mark">K<span>.</span></span>
+          <span>KAUSHAL <b>AI LABS</b></span>
+        </a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#contact" class="nav-contact">Let's talk ↗</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- HOME -->
+      <section id="home" class="hero container">
+        <div class="hero-copy reveal">
+          <div class="availability">
+            <span class="pulse"></span>
+            Open to junior developer roles & freelance inquiries
+          </div>
+
+          <p class="overline">HI, I’M</p>
+
+          <h1 class="hero-name interactive-headline">Kaushal<br><span>Kumar Sharma<span class="name-dot">.</span></span></h1>
+
+          <p class="hero-description">
+            I’m a <strong>Python & AI Developer</strong> and MCA graduate building useful <strong>AI-powered applications</strong>, machine learning tools and modern web experiences. Available for junior developer roles and freelance projects.
+          </p>
+
+          <div class="actions">
+            <a href="#contact" class="button button-primary">
+              Hire me <span aria-hidden="true">↗</span>
+            </a>
+            <a href="#work" class="button button-secondary">
+              See my work <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              href="assets/Kaushal_Kumar_Sharma_AI_Developer_Resume.pdf"
+              class="button button-text"
+              download
+              id="resume-link"
+            >
+              Download CV ↓
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span><i class="meta-dot"></i> MCA Graduate · 2026</span>
+            <span>Guwahati, Assam · IST</span>
+          </div>
+        </div>
+
+        <div class="id-stage reveal" id="id-stage">
+          <div class="id-light" aria-hidden="true"></div>
+          <div class="id-hanger" aria-hidden="true">
+            <div class="id-strap"><span>KAUSHAL AI LABS&nbsp; • &nbsp; DEVELOPER</span></div>
+            <div class="id-clip"></div>
+            <div class="id-ring"></div>
+          </div>
+          <div class="id-swing">
+            <div class="id-card" id="id-card">
+              <div class="id-face id-front">
+                <div class="id-hole" aria-hidden="true"></div>
+                <img
+                  src="assets/its me.jpeg"
+                  alt="Portrait of Kaushal Kumar Sharma"
+                  class="id-photo"
+                  width="900"
+                  height="900"
+                  fetchpriority="high"
+                  onerror="this.onerror=null;this.src='assets/avatar.svg';"
+                >
+                <div class="id-photo-shade"></div>
+                <div class="id-accent-rail" aria-hidden="true"></div>
+                <div class="id-front-content">
+                  <span class="id-small">KAUSHAL AI LABS / 001</span>
+                  <strong>Kaushal<br><span>Kumar Sharma</span></strong>
+                  <span class="id-role">PYTHON &amp; AI DEVELOPER</span>
+                  <span class="id-flip-hint">FLIP ME OVER ↗</span>
+                </div>
+              </div>
+              <div class="id-face id-back">
+                <div class="id-hole" aria-hidden="true"></div>
+                <div class="id-back-top">KAUSHAL <span>AI LABS</span></div>
+                <div class="id-back-mark">K<span>.</span></div>
+                <p class="id-back-label">DEVELOPER PROFILE</p>
+                <h3>Building useful<br>intelligent software.</h3>
+                <div class="id-back-skills"><span>Python</span><span>GenAI</span><span>TensorFlow</span><span>Streamlit</span></div>
+                <p class="id-back-location">Guwahati, India · MCA 2026</p>
+                <a href="mailto:kaush80065@gmail.com" class="id-back-email">kaush80065@gmail.com ↗</a>
+              </div>
+            </div>
+          </div>
+          <button class="id-flip-button" id="id-flip-button" type="button" aria-label="Flip developer ID card" aria-pressed="false">↻ Flip ID card</button>
+        </div>
+      </section>
+
+      <div class="tech-strip" aria-label="Core technologies">
+        <div class="tech-strip-viewport">
+          <div class="tech-strip-inner">
+            <div class="tech-strip-group">
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#3776ab" d="M12 2c-5.3 0-5 .3-5 2v3h5v1H5C2.5 8 2 10 2 12s.5 4 3 4h2v-3c0-2 1-3 3-3h5c1.7 0 3-1.3 3-3V5c0-2-1.7-3-6-3Zm-3 3a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/><path fill="#ffd43b" d="M12 22c5.3 0 5-.3 5-2v-3h-5v-1h7c2.5 0 3-2 3-4s-.5-4-3-4h-2v3c0 2-1 3-3 3h-5c-1.7 0-3 1.3-3 3v2c0 2 1.7 3 6 3Zm3-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
+                PYTHON
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h16" fill="none" stroke="#f89939" stroke-width="2.5" stroke-linecap="round"/><circle cx="8" cy="5" r="2" fill="#3499cd"/><circle cx="16" cy="12" r="2" fill="#f89939"/><circle cx="10" cy="19" r="2" fill="#3499cd"/></svg>
+                SCIKIT-LEARN
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#ff6f00" d="M12 2 22 7.5 12 13 2 7.5 12 2Zm-8 9 7 3.8v7.4l-7-3.8V11Zm16 0v7.4l-7 3.8v-7.4l7-3.8Z"/></svg>
+                TENSORFLOW
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#8e75ff" d="M12 1.5 14.6 9l7.9 3-7.9 3-2.6 7.5L9.4 15 1.5 12l7.9-3L12 1.5Z"/></svg>
+                GEMINI API
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#ff4b4b" d="M4 3h16v3H8l8 5-8 5h12v3H4l8-8-8-8Z"/></svg>
+                STREAMLIT
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3" fill="#4ea1d3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" fill="none" stroke="#4ea1d3" stroke-width="2"/></svg>
+                SQL
+              </span>
+            </div>
+            <div class="tech-strip-group" aria-hidden="true">
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24"><path fill="#3776ab" d="M12 2c-5.3 0-5 .3-5 2v3h5v1H5C2.5 8 2 10 2 12s.5 4 3 4h2v-3c0-2 1-3 3-3h5c1.7 0 3-1.3 3-3V5c0-2-1.7-3-6-3Zm-3 3a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/><path fill="#ffd43b" d="M12 22c5.3 0 5-.3 5-2v-3h-5v-1h7c2.5 0 3-2 3-4s-.5-4-3-4h-2v3c0 2-1 3-3 3h-5c-1.7 0-3 1.3-3 3v2c0 2 1.7 3 6 3Zm3-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
+                PYTHON
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16" fill="none" stroke="#f89939" stroke-width="2.5" stroke-linecap="round"/><circle cx="8" cy="5" r="2" fill="#3499cd"/><circle cx="16" cy="12" r="2" fill="#f89939"/><circle cx="10" cy="19" r="2" fill="#3499cd"/></svg>
+                SCIKIT-LEARN
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24"><path fill="#ff6f00" d="M12 2 22 7.5 12 13 2 7.5 12 2Zm-8 9 7 3.8v7.4l-7-3.8V11Zm16 0v7.4l-7 3.8v-7.4l7-3.8Z"/></svg>
+                TENSORFLOW
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24"><path fill="#8e75ff" d="M12 1.5 14.6 9l7.9 3-7.9 3-2.6 7.5L9.4 15 1.5 12l7.9-3L12 1.5Z"/></svg>
+                GEMINI API
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24"><path fill="#ff4b4b" d="M4 3h16v3H8l8 5-8 5h12v3H4l8-8-8-8Z"/></svg>
+                STREAMLIT
+              </span>
+              <span class="tech-item">
+                <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3" fill="#4ea1d3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" fill="none" stroke="#4ea1d3" stroke-width="2"/></svg>
+                SQL
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <section id="about" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / INTRODUCTION</p>
+          <h2 class="interactive-headline">
+            Developer by training.<br />
+            <span class="soft">Problem solver by nature.</span>
+          </h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-quote reveal">
+            <span class="quote-icon">“</span>
+            <p>
+              I enjoy turning complex ideas into simple, useful applications.
+            </p>
+          </div>
+          <div class="about-content reveal">
+            <p>
+              I'm Kaushal Kumar Sharma, a 2026 MCA graduate from The Assam Royal
+              Global University. My focus is Python development, machine
+              learning, computer vision and Generative AI.
+            </p>
+            <p>
+              I've developed a deployed AI Text Summarizer, a Salary Prediction
+              application and an academic Sign Language Interpreter. I enjoy
+              learning by building and testing real software.
+            </p>
+            <p>
+              I'm looking for an entry-level development opportunity and welcome
+              discussions about suitable freelance projects.
+            </p>
+            <a
+              class="inline-link"
+              href="https://www.linkedin.com/in/kaushal-sharma-714081243/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Connect on LinkedIn ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="section section-dark">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">02 / SERVICES</p>
+            <h2>What I can <span class="gradient">build for you.</span></h2>
+            <p class="section-lead">
+              Practical development help for individuals, startups and small
+              businesses.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <span class="service-number">01</span>
+              <div class="service-icon">✳</div>
+              <h3>AI-powered applications</h3>
+              <p>
+                Gemini API integrations, text processing applications and AI
+                assistant prototypes for useful business workflows.
+              </p>
+              <a href="#project-summarizer" class="inline-link">
+                View related project ↗
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-number">02</span>
+              <div class="service-icon">⌘</div>
+              <h3>Python automation</h3>
+              <p>
+                Small Python scripts for repetitive tasks, file processing, data
+                cleaning and workflow improvements.
+              </p>
+              <a href="#contact" class="inline-link"> Discuss your task ↗ </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-number">03</span>
+              <div class="service-icon">▥</div>
+              <h3>Data & ML dashboards</h3>
+              <p>
+                Data analysis, machine learning prototypes and interactive
+                Streamlit dashboards that make results easier to understand.
+              </p>
+              <a href="#project-salary" class="inline-link">
+                View related project ↗
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-number">04</span>
+              <div class="service-icon">◇</div>
+              <h3>Web application prototypes</h3>
+              <p>
+                Responsive frontends and Python-based application prototypes
+                with a focus on usability and clear presentation.
+              </p>
+              <a href="#contact" class="inline-link">
+                Start a conversation ↗
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section id="work" class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / SELECTED WORK</p>
+          <h2>Projects I've <span class="gradient">built.</span></h2>
+          <p class="section-lead">
+            Academic and personal projects that demonstrate my approach to
+            Python, AI and software development.
+          </p>
+        </div>
+
+        <div class="work-list">
+          <article
+            id="project-summarizer"
+            class="project project-featured reveal"
+          >
+            <div class="project-preview preview-summarizer">
+              <div class="mock-window">
+                <div class="mock-top">
+                  <span class="mock-dots">● ● ●</span>
+                  <span>AI TEXT SUMMARIZER</span>
+                  <span>✦</span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-title">Summarize smarter.</div>
+                  <div class="mock-subtitle">
+                    Turn long text into clear insights.
+                  </div>
+                  <div class="mock-editor">
+                    <span class="mock-line long"></span>
+                    <span class="mock-line"></span>
+                    <span class="mock-line medium"></span>
+                    <span class="mock-line short"></span>
+                  </div>
+                  <div class="mock-controls">
+                    <span>Short</span>
+                    <span>Professional</span>
+                    <span class="mock-action">Generate ✦</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-index">01 / GENERATIVE AI</div>
+              <h3>AI Text Summarizer V2</h3>
+              <p>
+                A deployed text summarization app powered by Google Gemini.
+                Users can select summary length and writing style, review word
+                reduction statistics and download results.
+              </p>
+              <div class="tags">
+                <span>Python</span><span>Gemini API</span>
+                <span>Streamlit</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/kaush80065-alt/ai-text-summarizer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View source ↗
+                </a>
+                <!-- Add verified Streamlit URL here later -->
+              </div>
+            </div>
+          </article>
+
+          <article id="project-salary" class="project reveal">
+            <div class="project-preview preview-salary">
+              <div class="salary-widget">
+                <div class="widget-heading">
+                  <span>Salary Intelligence</span>
+                  <span>↗</span>
+                </div>
+                <p>Machine Learning Prediction</p>
+                <div class="bars" aria-hidden="true">
+                  <span style="--h: 42%"></span>
+                  <span style="--h: 63%"></span>
+                  <span style="--h: 53%"></span>
+                  <span style="--h: 79%"></span>
+                  <span style="--h: 68%"></span>
+                  <span style="--h: 91%"></span>
+                  <span style="--h: 83%"></span>
+                </div>
+                <div class="widget-bottom">
+                  <span>REGRESSION MODEL</span>
+                  <strong>R² ≈ 0.90</strong>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-index">02 / MACHINE LEARNING</div>
+              <h3>Salary Prediction AI</h3>
+              <p>
+                A regression-based salary prediction application using
+                structured data. Includes data preprocessing, model evaluation
+                and a Streamlit interface.
+              </p>
+              <div class="tags">
+                <span>Scikit-learn</span><span>Pandas</span>
+                <span>Streamlit</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/kaush80065-alt/salary-prediction-ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View source ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article id="project-sign" class="project reveal">
+            <div class="project-preview preview-sign">
+              <div class="vision-frame">
+                <span class="vision-label">SIGN RECOGNITION</span>
+                <div class="vision-target">✋</div>
+                <div class="vision-corners"></div>
+                <div class="vision-bottom">
+                  <span>COMPUTER VISION</span>
+                  <span>AI → SPEECH</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-index">03 / DEEP LEARNING</div>
+              <h3>AI Sign Language Interpreter</h3>
+              <p>
+                My academic project uses computer vision and a CNN-based model
+                for recognizing hand signs, with text output and emotion-aware
+                speech generation features.
+              </p>
+              <div class="tags">
+                <span>TensorFlow</span><span>OpenCV</span>
+                <span>MediaPipe</span>
+              </div>
+              <div class="project-links">
+                <span class="project-status">Academic project</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="work-footer reveal">
+          <p>More experiments and code are available on GitHub.</p>
+          <a
+            href="https://github.com/kaush80065-alt"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-secondary"
+          >
+            Explore my GitHub ↗
+          </a>
+        </div>
+      </section>
+
+      <!-- EXPERTISE -->
+      <section id="expertise" class="section section-dark">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">04 / EXPERTISE</p>
+            <h2>What I <span class="gradient">work with.</span></h2>
+          </div>
+
+          <div class="expertise-grid">
+            <article class="expertise-card reveal">
+              <span class="expertise-number">01 / LANGUAGES</span>
+              <h3>Programming</h3>
+              <div class="skill-tags">
+                <span>Python</span><span>SQL</span> <span>PHP</span
+                ><span>JavaScript</span> <span>HTML</span><span>CSS</span>
+              </div>
+            </article>
+            <article class="expertise-card reveal">
+              <span class="expertise-number">02 / DATA</span>
+              <h3>Machine Learning</h3>
+              <div class="skill-tags">
+                <span>Scikit-learn</span><span>Pandas</span> <span>NumPy</span
+                ><span>Regression</span>
+                <span>Model Evaluation</span>
+              </div>
+            </article>
+            <article class="expertise-card reveal">
+              <span class="expertise-number">03 / INTELLIGENCE</span>
+              <h3>Deep Learning & GenAI</h3>
+              <div class="skill-tags">
+                <span>TensorFlow</span><span>Keras</span> <span>OpenCV</span
+                ><span>MediaPipe</span>
+                <span>Gemini API</span>
+              </div>
+            </article>
+            <article class="expertise-card reveal">
+              <span class="expertise-number">04 / WORKFLOW</span>
+              <h3>Tools & Frameworks</h3>
+              <div class="skill-tags">
+                <span>Streamlit</span><span>Flask</span> <span>Git</span
+                ><span>GitHub</span>
+                <span>VS Code</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAREER -->
+      <section class="section container career-section">
+        <div class="career-panel reveal">
+          <div>
+            <p class="eyebrow">05 / CAREER</p>
+            <h2>Looking for a developer?</h2>
+            <p>
+              I'm available to discuss junior Python, AI/ML, software
+              development and internship opportunities.
+            </p>
+          </div>
+          <div class="career-actions">
+            <a
+              class="button button-primary"
+              href="assets/Kaushal_Kumar_Sharma_AI_Developer_Resume.pdf"
+              download
+              id="resume-link-secondary"
+            >
+              Download resume ↓
+            </a>
+            <a
+              class="inline-link"
+              href="https://www.linkedin.com/in/kaushal-sharma-714081243/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View LinkedIn ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-dark">
+        <div class="container contact-layout">
+          <div class="reveal">
+            <p class="eyebrow">06 / CONTACT</p>
+            <h2>Have something to <span class="gradient">build?</span></h2>
+            <p class="contact-intro">
+              Tell me about your idea, the problem you're solving or the
+              developer role you're hiring for. I'd be happy to hear from you.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail">
+                <span>EMAIL</span>
+                <a class="contact-email" href="mailto:kaush80065@gmail.com">
+                  kaush80065@gmail.com
+                </a>
+                <button type="button" id="copy-email" class="copy-button">
+                  Copy email
+                </button>
+              </div>
+              <div class="contact-detail">
+                <span>LOCATION</span>
+                <strong>Guwahati, Assam, India</strong>
+              </div>
+              <div class="contact-detail">
+                <span>PROFILES</span>
+                <div class="profile-links">
+                  <a
+                    href="https://github.com/kaush80065-alt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub ↗
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/kaushal-sharma-714081243/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel reveal">
+            <h3>Start a conversation</h3>
+            <p>
+              Fill in the details below. Your email application will open with
+              the message ready to send.
+            </p>
+
+            <form id="contact-form">
+              <label for="inquiry-type">What is this about?</label>
+              <select id="inquiry-type" required>
+                <option value="Freelance Project">Freelance project</option>
+                <option value="Job Opportunity">Job opportunity</option>
+                <option value="Collaboration">Collaboration</option>
+                <option value="General Inquiry">General inquiry</option>
+              </select>
+
+              <label for="visitor-name">Your name</label>
+              <input
+                id="visitor-name"
+                type="text"
+                placeholder="Your full name"
+                autocomplete="name"
+                maxlength="100"
+                required
+              />
+
+              <label for="visitor-email">Your email</label>
+              <input
+                id="visitor-email"
+                type="email"
+                placeholder="you@company.com"
+                autocomplete="email"
+                required
+              />
+
+              <label for="visitor-message">Message</label>
+              <textarea
+                id="visitor-message"
+                rows="5"
+                placeholder="Tell me about your project or opportunity..."
+                maxlength="3000"
+                required
+              ></textarea>
+
+              <button type="submit" class="button button-primary submit-button">
+                Prepare email ↗
+              </button>
+              <p
+                class="form-note"
+                id="form-status"
+                role="status"
+                aria-live="polite"
+              >
+                No information is stored on this website.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Kaushal AI Labs</span>
+        <span>Built by Kaushal Kumar Sharma</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
